@@ -75,7 +75,7 @@ public class LinkedListDeque<T>implements Iterable<T>,Deque<T> {
             return null;
         }
         Intode sc=sential.prve;
-        if(sc.prve.prve!=sential)
+        if(sential.prve.prve!=sential)
         {
             sential.prve.prve.next=sential;
         }
