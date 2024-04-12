@@ -167,16 +167,11 @@ public class LinkedListDequeTest {
     @Test
     public void randomizedTest1() {
         LinkedListDeque LinkedListDeque=new LinkedListDeque<>();
-        LinkedListDeque.addLast(0);
-        LinkedListDeque.removeLast() ;
-        LinkedListDeque.addLast(2);
-        LinkedListDeque.addFirst(3);
-        LinkedListDeque.removeFirst() ;
-        LinkedListDeque.addLast(5);
-        LinkedListDeque.removeLast() ;
-        LinkedListDeque.removeFirst() ;
-        LinkedListDeque.addLast(9);
-        LinkedListDeque.get(0);
+        LinkedListDeque.isEmpty();
+        LinkedListDeque.addLast(1);
+        LinkedListDeque.removeFirst()   ;
+        LinkedListDeque.addLast(3);
+        LinkedListDeque.removeFirst();
 
     }
 }
